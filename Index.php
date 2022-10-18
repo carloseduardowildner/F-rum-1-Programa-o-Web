@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Página de Signos</title>
+	</head>
+    <body>
+		<h1>Descubra o seu signo!</h1>
+		<form action="logica.php" class="form" method="post">
+			<label for="NascimentoData">Data de nascimento?:</label>
+			<input type="date" name="NascimentoData">
+			<button type="submit">Verificar</button>
+        </form>
+    </body>
+</html>
